@@ -7,7 +7,7 @@
     }
 
     body{
-        font-size: 18px;}
+        font-size: 16px;}
 
   .main_container{background: rgb(255, 255, 255);
                     height: 100%;
@@ -21,55 +21,66 @@
         align-content: space-between;
         justify-content: center;
         align-content: flex-start;
+        padding: 20px;
         
         margin: 2%;
         
        }
 
-img{width: 100%;
-    width: 100%;
+img{width: 400px;
+    height: 250px;
     margin-top: 5%;
     margin-bottom: 20%;
+    border-radius: 2%;
     object-fit:cover;}
 
 
 
 .one{background: rgb(255, 255, 255);
-    width: 300px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
     align-content: space-around;
-   
+    padding: 20px;
+    
+    
+
    
 }
 
 
  .two{background: rgb(255, 255, 255);
-        width: 300px;
-        height: 600px;
+        width: 450px;
+        height: 450px;
         align-content: space-around;
+        padding: 20px;
        
         
      }
 
 .three{background: rgb(255, 255, 255);
-    width: 300px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
     align-content: space-around;
+    padding: 20px;
+    
 }
 
 
 
 .four{background: rgb(255, 255, 255);
-    width: 300px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
     align-content: space-around;
+    padding: 20px;
+    
 }
 
 
 .five{background: rgb(255, 255, 255);
-    width: 300px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
     align-content: space-around;
+    padding: 20px;
 }
 
 
@@ -77,16 +88,18 @@ img{width: 100%;
 
 
 .six{background: rgb(255, 255, 255);
-    width: 300px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
     align-content: space-around;
+    padding: 20px;
     }
 
     
 .seven{background: rgb(255, 255, 255);
-    width: 300px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
     align-content: space-around;
+    padding: 20px;
     }
 
 
