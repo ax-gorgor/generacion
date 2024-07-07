@@ -399,9 +399,150 @@ font-size: 30px;
   
   { 
 
+    body{
+        font-size: 14px;
+        font-family: Roboto;}
+
+  .main_container{background: rgb(255, 255, 255);
+                    height: 100%;
+                    padding: 1%;
+                    
+                    
+      }
+.head{display: flex;
+        width: 100%;
+        height: 20%;
+        background: #ffffff;
+        position: fixed;
+        z-index: 3000;
+        margin-top: -40px;
+        padding-top: 40px ;
+        border-bottom: 1px solid #b6b6b6 ;
+        justify-content: center;
+        align-items: center;
+      
+        
+   }
+
+.logo  img{width: 100%;
+   
+
+           
+    
+            }
+
+ /**/
+ .grider{
+    position: relative;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+    
+    }
+
+    
+
+.home1{width: 100%;}
+
+.home2{width: 100%;}
+
+.hundred{
+    
+margin-top: 40%;
+
+font-size: 30px;
+}
+
+.hundred  {width: 100%;}
+
+.hundred p {font-size: 21px}
+
+.hundred_2{border-bottom:1px solid #b6b6b6;
+             }
+
+.hundred_2 img{
+
+    margin-top: 40px;
+    width: 100%;
+    margin-bottom: 2%;
+    
+
+    }
+
+    /*
+
+
+    .hundred-one{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    margin-top: 0px;
+    width: 300px;
+    font-size: 16px;
+    }
+
+.hundred-one_1{
+        margin-top: 50px;
+        width: 300px;
+        font-size: 18px;
+        }
+
+.hundred-one p {font-size: 14px}
+
+.hundred-one_2{border-bottom:1px solid #b6b6b6;
+             }
+
+  
+
+    
+
+.hundred-two{
+        grid-column: 2 / 3;
+        grid-row:  1 / 3;
+    width: 300px;
+    font-size: 16px;
+    margin-bottom: 0%;
+    }
+
+    .hundred-two_1{
+        margin-top: 50px;
+        width: 300px;
+        font-size: 18px;
+        }
+
+
+
+.hundred-two p {font-size: 14px}
+
+.hundred-two_2{border-bottom:1px solid #b6b6b6;
+             }
+
+.hundred-one_2 img{
+
+       
+    margin-top: 50px;
+    width: 400px;
+    margin-bottom: 2%;
+    
+
+    }
+
+    .hundred-two_2 img{
+
+       
+        margin-top: 50px;
+        width: 400px;
+        margin-bottom: 2%;
+        
+    
+        }
+ 
+ /* */           
+
     img{width: 100%;
         height: 100%;
         object-fit:contain;}
+
+
 
     .main_container{background: rgb(255, 255, 255);
                     height: 100%;
