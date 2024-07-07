@@ -62,7 +62,7 @@
     grid-row: 1 / 2;
 margin-top: 50px;
 width: 800px;
-font-size: 32px;
+font-size: 30px;
 }
 
 .hundred p {font-size: 21px}
@@ -89,7 +89,7 @@ font-size: 32px;
         grid-row: 1 / 1;
     margin-top: 0px;
     width: 300px;
-    font-size: 18px;
+    font-size: 16px;
     }
 
 .hundred-one_1{
@@ -112,7 +112,7 @@ font-size: 32px;
         grid-row:  1 / 1;
     margin-top: 175%;
     width: 300px;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 0%;
     }
 
