@@ -49,10 +49,16 @@
            margin-top: 10.5%;
     
             }
-   
+  
+a{text-decoration: none;
+    color: #000000;}
+
+
+
 img{border-radius: 1%;}
 
-.container2{ margin-top: 10%;}
+.container2{ margin-top: 10%;
+            }
 
 .grider{
 
@@ -83,7 +89,7 @@ font-size: 30px;
 }
 
 .hundred p {font-size: 21px;
-            font-weight: 300;}
+            font-weight: 400;}
 
 .hundred_2{border-bottom:1px solid #b6b6b6;
              }
@@ -149,12 +155,7 @@ font-size: 30px;
 
 .hundred-one p {font-size: 14px}
 
-.hundred-one_2{
-    
-   
 
-
-             }
 
   
 
@@ -178,11 +179,7 @@ font-size: 30px;
 
 .hundred-two p {font-size: 14px}
 
-.hundred-two_2{
-    
-    
 
-             }
 
 
 .hundred-one_2 img{
