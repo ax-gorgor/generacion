@@ -103,10 +103,12 @@ img{border-radius: 1%;}
 }
 
 .block1{padding-bottom: 5px;}
+.block1 h2{font-size: 36px;}
 
 .block2{padding-bottom: 5px;}
+.block2 h2{font-size: 30px;}
 
-.block1-1{padding-bottom: 90px;}
+.block1-1{padding-bottom: 60px;}
 
 .block2-1{padding-bottom: 40px;}
 
