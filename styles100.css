@@ -55,8 +55,7 @@
     
             }
       
-.return{margin-top: 200px;
-        margin-left: 50%;}
+
 
         .paraj_container_1{
 
@@ -86,20 +85,25 @@
 }
 
 .paraj_2{font-size: 86px;
-    margin-top: 120px;
-    margin-bottom: -45px;
-z-index: 2004;
+    
+    z-index: 2004;
     color: rgb(46, 46, 46);
     font-weight: 300;
+    
+    z-index: 2001;
     }
 
 
-.paraj_3{width: 100%;
-            height: 20px;
+.paraj_3{display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+         height: 120px;
         background: rgb(253, 183, 123);
         color: rgb(253, 183, 123) ;
-    font-size: 0.0000000001px;
-    margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+    margin-top: 6%;
     padding: 20px;
     z-index: 1999;}
 
@@ -108,12 +112,6 @@ z-index: 2004;
 
 
 
-.paraj_container_2 {
-
-   justify-content: center;
-   align-items: center;
-   z-index: 2001;
-}
 
 .paraj_4{
         margin-top: 10%;
@@ -158,6 +156,10 @@ z-index: 2004;
     padding: 24px;
     margin-bottom: 36px; 
 }
+
+.return {margin-top: 1%;
+    margin-left: 72%;
+    padding: 4%;}
 
 @media screen and (max-width: 565px)
   
@@ -211,8 +213,6 @@ a{text-decoration: none;
 
 img{border-radius: 1%;}
       
-.return{margin-top: 200px;
-        margin-left: 50%;}
 
         .paraj_container_1{
 
@@ -241,24 +241,30 @@ img{border-radius: 1%;}
     width: 90%;
 }
 
-.paraj_2{font-size: 40px;
-    margin-top: 120px;
-    margin-bottom: -30
-    px;
-z-index: 2004;
+.paraj_2 {font-size: 42px;
+    
+    z-index: 2004;
     color: rgb(46, 46, 46);
     font-weight: 300;
+    
+    z-index: 2001;
     }
+    
 
-
-.paraj_3{width: 80%;
-            height: 10px;
+.paraj_3{display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+         height: 72px;
         background: rgb(253, 183, 123);
         color: rgb(253, 183, 123) ;
-    font-size: 0.0000000001px;
-    margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+    margin-top: 6%;
     padding: 20px;
-    z-index: 1999;}
+    z-index: 1999;
+   
+    }
 
     
 
@@ -316,6 +322,10 @@ z-index: 2004;
     margin-bottom: 36px;
    
 }
+
+.return{margin-top: 10%;
+    margin-left: 80%;
+    padding: 4%;}
 
 
  }
