@@ -76,6 +76,11 @@
    
 }
 
+.logo_titulo1 p{
+    margin-top: 5%;
+   
+}
+
 .logotipo{
     border-radius: 85%;
     border: 0.5px solid black;
@@ -165,7 +170,8 @@ span {
 .contenedor {display: flex;
     flex-direction: row;
     position: relative;
-    width: 360px;
+    width: 380px;
+    height: 560px;
     z-index: 1500; /* Ajusta el tamaño máximo de acuerdo a tus necesidades */
   }
   
@@ -174,6 +180,19 @@ span {
     width: 100%;
     height: auto;
   }
+
+  .texto0{height: 15%;
+    width: 90%;
+    position: absolute;
+    margin-left: 0%;
+    top: 80%;
+    left: 55%;
+    transform: translate(-54.5%, -2%);
+    
+    padding: 6px;
+    color: white; /* Color del texto */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejorar la legibilidad */
+    padding: 2px; /* Espacio alrededor del texto */}
   
   .texto {height: 15%;
     width: 95%;
@@ -190,6 +209,12 @@ span {
    
   }
   
+
+  .texto0 h1,
+  .texto0 p {width: 100%;
+    font-size: 20px;
+    text-align:center;
+  }
   .texto h1,
   .texto p {width: 100%;
     font-size: 20px;
@@ -245,7 +270,7 @@ span {
                   
                 }
         
-                .logo img{width: 50%;
+                .logo img{width: 65%;
                   
              
                      }
@@ -269,7 +294,7 @@ span {
                 justify-content: center;
         
                 margin-top: 50%;
-                width: 64%;}
+                width: 86%;}
         
         .logo_titulo1{
             display: flex;
@@ -277,21 +302,21 @@ span {
             flex-wrap: wrap;
             justify-content: center;
             margin-top: 25%;
-            width: 64%;
+            width: 86%;
            
         }
         
         .logotipo{
             border-radius: 85%;
             border: 0.5px solid black;
-            margin-bottom: 6%;
+            margin-bottom: 3%;
             width: 25%;
         }
         
         .emblema p{
             font-family: roboto;
-            margin-bottom: 20%;
-            margin-top: 15%;
+            margin-bottom: 18%;
+            margin-top: 2%;
             padding: 5%;
             font-weight: 400;
             font-size: 14px;
@@ -313,6 +338,7 @@ span {
             line-height: 140%;
             font-weight: 300;
             margin-left: 1%;
+            width: 85%;
            
             
         }
@@ -328,10 +354,11 @@ span {
                 border-radius: 1%;
              }
         
-        
-                img {object-fit:cover;
+        img {object-fit:cover;
              
         }
+
+     
         
         .flex-container1{
             display: flex;
@@ -342,7 +369,7 @@ span {
             
         }
         
-        .flex-container1 p{width: 85%;
+        .flex-container1 p{width: 86%;
                             padding: 1%;}
         
         .epigrafes{
@@ -370,6 +397,7 @@ span {
             flex-direction: row;
             position: relative;
             width: 360px;
+            height: 560px;
             z-index: 1500; /* Ajusta el tamaño máximo de acuerdo a tus necesidades */
             margin-bottom: 5%;
           }
@@ -378,6 +406,7 @@ span {
             display: block;
             width: 100%;
             height: auto;
+          
           }
 
          .location{
@@ -385,6 +414,18 @@ span {
             width: 85%;
          }
           
+         .texto0{height: 15%;
+            width: 90%;
+            position: absolute;
+            margin-left: 0%;
+            top: 80%;
+            left: 55%;
+            transform: translate(-50%, -2%);
+            
+            padding: 6px;
+            color: white; /* Color del texto */
+            background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejorar la legibilidad */
+            padding: 2px; /* Espacio alrededor del texto */}
           .texto {height: 15%;
             width: 95%;
             position: absolute;
@@ -404,10 +445,12 @@ span {
           .texto p {width: 100%;
             font-size: 20px;
             text-align:center;
+            justify-content: center;
           }
           
         
-        .metro3 img{width: 360px;}
+        .metro3 img{width: 360px;
+                    height: auto;}
           
           
         
