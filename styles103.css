@@ -245,7 +245,7 @@ span {
                   
                 }
         
-                .logo img{width: 25%;
+                .logo img{width: 50%;
                   
              
                      }
@@ -268,7 +268,7 @@ span {
                 flex-wrap: wrap;
                 justify-content: center;
         
-                margin-top: 20%;
+                margin-top: 50%;
                 width: 64%;}
         
         .logo_titulo1{
@@ -276,7 +276,7 @@ span {
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: center;
-            margin-top: 5%;
+            margin-top: 25%;
             width: 64%;
            
         }
@@ -284,14 +284,14 @@ span {
         .logotipo{
             border-radius: 85%;
             border: 0.5px solid black;
-            margin-bottom: 8%;
+            margin-bottom: 6%;
             width: 25%;
         }
         
         .emblema p{
             font-family: roboto;
             margin-bottom: 20%;
-            margin-top: 40%;
+            margin-top: 15%;
             padding: 5%;
             font-weight: 400;
             font-size: 14px;
@@ -301,14 +301,14 @@ span {
         
         
          h1{
-            font-size: 48px;
+            font-size: 54px;
             font-family: Josefin Sans;
             font-weight: 700;
             margin-bottom: 5%;
            
          }
         
-         p {font-size: 16px;
+         p {font-size: 20px;
             text-align: center;
             line-height: 140%;
             font-weight: 300;
@@ -371,6 +371,7 @@ span {
             position: relative;
             width: 360px;
             z-index: 1500; /* Ajusta el tamaño máximo de acuerdo a tus necesidades */
+            margin-bottom: 5%;
           }
           
           .contenedor img {
