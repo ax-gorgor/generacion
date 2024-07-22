@@ -274,12 +274,12 @@ a{
         padding: 2%;}
 
 
-    .titulo h1 {font-size: 108px;
+    .titulo h1 {font-size: 86px;
                 font-family: Poppins;
                 font-weight: 600;
                 letter-spacing: 28px;}
 
-        .titulo h4{font-size: 32px;
+        .titulo h4{font-size: 28px;
             font-family: Poppins;
             font-weight: 500;
             line-height: 60px;
@@ -293,8 +293,8 @@ a{
             line-height: 32px;
         max-width: 448px;
             z-index: 5000;
-        color: white;
-        -webkit-text-stroke: 0.2px black;
+        color: rgb(0, 0, 0);
+     
         
     }
  
@@ -309,10 +309,10 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 1090px;
-    margin-top: -42%;
-    z-index: 4000;
    
+    margin-top: 4%;
+    z-index: 4000;
+   width: 100%;
     padding: 2%;
 }
 
@@ -329,7 +329,7 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 3%;
-    max-width: 86%;
+    max-width: 96%;
    
     }
 
@@ -374,7 +374,7 @@ a{
    .recuadros{
         
         background: rgb(188, 197, 219);
-        
+        margin-top: 10%;
     
         }
 
@@ -382,13 +382,18 @@ a{
 .titulo1{background: rgb(208, 219, 232);
          padding: 10px;
          margin: 16px;
+         
         }
 
+        .titulo1 p {width: 92%;}
 
 .titulo2{background: rgb(208, 219, 232);
         padding: 10px;
         margin: 16px;
+       
     }
+
+    .titulo2 p {width: 92%;}
 
 .lecciones {display: flex;
             flex-direction: column;
