@@ -27,7 +27,7 @@
       
       .head{
         width: 100%;
-        height: 28%;
+        height: 20%;
         background: #ffffff;
         position: fixed;
         z-index: 3000;
@@ -70,7 +70,7 @@
 
 
 
-.paraj_name{margin-top: 15%;
+.paraj_name{margin-top: 14%;
             font-family: Arvo;
             font-size: 96px;
             padding: 20px;}
@@ -181,7 +181,7 @@
 .head{
         
         width: 100%;
-        height: 25%;
+        height: 20%;
         background: #ffffff;
         position: fixed;
         z-index: 3000;
@@ -227,7 +227,7 @@ img{border-radius: 1%;}
 
 
 
-.paraj_name{margin-top: 50%;
+.paraj_name{margin-top: 36%;
             font-family: Arvo;
             font-size: 36px;
             padding: 20px;}
