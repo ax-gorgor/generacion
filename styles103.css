@@ -302,7 +302,7 @@ span {
             flex-wrap: wrap;
             justify-content: center;
             margin-top: 25%;
-            width: 86%;
+            width: 96%;
            
         }
         
@@ -334,11 +334,11 @@ span {
          }
         
          p {font-size: 20px;
-            text-align: center;
+            text-align: left;
             line-height: 140%;
             font-weight: 300;
             margin-left: 1%;
-            width: 85%;
+            width: 95%;
            
             
         }
