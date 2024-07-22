@@ -19,6 +19,7 @@
         margin-left: 2%;
         font-family: roboto;
         background: #ededed;
+       
         
         
         }
@@ -78,7 +79,9 @@
             line-height: 32px;
         max-width: 860px;
             z-index: 5000;
-        color: white;}
+        color: white;
+        -webkit-text-stroke: 0.2px black;
+    }
  
     
 
@@ -130,7 +133,7 @@
         padding: 2%;
         font-weight: 300;
         text-align: left;
-
+       
      }
 
      span{
@@ -138,4 +141,297 @@
         font-weight: 500;
      }
 
-     .kondy_2{ width: 80%;}
+     .kondy_2{ 
+        
+        width: 90%;
+        padding: 1%;
+    
+    }
+
+    
+    .kondy_3{ 
+        
+        width: 90%;
+        padding: 1%;
+    
+    }
+
+   .recuadros{
+        
+        background: rgb(188, 197, 219);
+        
+    
+        }
+
+
+.titulo1{background: rgb(208, 219, 232);
+         padding: 10px;
+         margin: 16px;
+        }
+
+
+.titulo2{background: rgb(208, 219, 232);
+        padding: 10px;
+        margin: 16px;
+    }
+
+.lecciones {display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-top: 6%;
+            border: 0.5px solid rgb(255, 231, 158);
+            border-radius: 1%;
+            padding: 1%;
+            width: 82%;
+            background: rgb(255, 255, 239)
+            ;
+        }
+
+.fotoLecciones{width: 30%;}
+
+                .fotoLecciones img{border-radius: 5%;
+                }
+
+                .kondy_4 img{width: 30%;}
+
+.leccionesTexto{width: 65%;
+   }
+
+  
+
+
+        .leccionesTexto  p{ 
+            line-height: 24px;
+            font-size: 20px;
+            margin-left: 1%;}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ .lecciones{margin-bottom: 10%;}
+
+@media screen and (max-width: 565px)
+  
+  
+{
+    body{
+        font-size: 14px;
+        font-family: Roboto;}
+        
+    .main_container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:center;
+        text-align: center;
+       
+        font-family: roboto;
+        background: #ededed;
+       
+        
+        
+        }
+    
+        .fixed{
+            width: 100%;
+            height: 20%;
+            display: flex;
+            align-items: center;
+            position: fixed;
+            background: rgb(255, 255, 255);
+            justify-content:center;
+            border-bottom: 1px solid #b6b6b6 ;
+            z-index: 9000;
+           }
+        
+         
+        
+        .logo{
+            width: 100%;
+              
+            }
+    
+            .logo img{width: 85%;
+              
+         
+                 }
+    
+    
+    .titulo{margin-top: 40%;
+                display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            max-width: 560px;
+        
+        padding: 2%;}
+
+
+    .titulo h1 {font-size: 108px;
+                font-family: Poppins;
+                font-weight: 600;
+                letter-spacing: 28px;}
+
+        .titulo h4{font-size: 32px;
+            font-family: Poppins;
+            font-weight: 500;
+            line-height: 60px;
+            letter-spacing: 2px;}
+
+.titulo p{    margin-top: 10%;
+             font-size: 24px;
+             padding: 4%;
+            font-family: Roboto;
+            font-weight: 500;
+            line-height: 32px;
+        max-width: 448px;
+            z-index: 5000;
+        color: white;
+        -webkit-text-stroke: 0.2px black;
+        
+    }
+ 
+    
+
+
+
+
+.fotoPortada{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1090px;
+    margin-top: -42%;
+    z-index: 4000;
+   
+    padding: 2%;
+}
+
+.kondy_1{
+
+    width: 82%;
+   
+}
+ 
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3%;
+    max-width: 86%;
+   
+    }
+
+ 
+ img {
+    width: 200px;
+        margin: 20px;
+        object-fit: cover;
+     }
+
+
+     .flex-container p{
+
+        font-size: 24px;
+        line-height: 36px;
+        padding: 2%;
+        font-weight: 300;
+        text-align: left;
+       
+     }
+
+     span{
+
+        font-weight: 500;
+     }
+
+     .kondy_2{ 
+        
+        width: 90%;
+        padding: 1%;
+    
+    }
+
+    
+    .kondy_3{ 
+        
+        width: 90%;
+        padding: 1%;
+    
+    }
+
+   .recuadros{
+        
+        background: rgb(188, 197, 219);
+        
+    
+        }
+
+
+.titulo1{background: rgb(208, 219, 232);
+         padding: 10px;
+         margin: 16px;
+        }
+
+
+.titulo2{background: rgb(208, 219, 232);
+        padding: 10px;
+        margin: 16px;
+    }
+
+.lecciones {display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items:center;
+            margin-top: 6%;
+            border: 0.5px solid rgb(255, 231, 158);
+            border-radius: 1%;
+            padding: 1%;
+            width: 82%;
+         height: 360px;
+            background: rgb(255, 255, 239)
+            ;
+        }
+
+.fotoLecciones{width: 100%;
+               }
+
+                .fotoLecciones img{border-radius: 5%;
+                }
+
+                .kondy_4 img{width: 30%;}
+
+.leccionesTexto{width: 100%;
+   }
+
+  
+
+
+        .leccionesTexto  p{ 
+            line-height: 22px;
+            font-size: 18px;
+            margin-left: 0;}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.lecciones{margin-bottom: 10%;}
+
+        
+ }
