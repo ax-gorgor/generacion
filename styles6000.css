@@ -39,12 +39,16 @@
          
         
         .logo{
-            width: 100%;
+            display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
               
             }
     
-            .logo img{width: 85%;
-              
+            .logo img{width: 82%;
+                margin-top: 10.5%;
          
                  }
     
@@ -60,7 +64,7 @@
         padding: 2%;}
 
 
-    .titulo h1 {font-size: 72px;
+    .titulo h1 {font-size: 64px;
                 font-family: Poppins;
                 font-weight: 600;
               
@@ -191,11 +195,16 @@ a{
          
         
         .logo{
-            width: 100%;
+            display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
               
             }
     
-            .logo img{width: 85%;
+            .logo img{width: 82%;
+                margin-top: 10.5%;
               
          
                  }
@@ -207,27 +216,23 @@ a{
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            max-width: 560px;
+            width: 100%;
         
         padding: 2%;}
 
 
-    .titulo h1 {font-size: 86px;
+    .titulo h1 {font-size: 40px;
                 font-family: Poppins;
                 font-weight: 600;
-                letter-spacing: 28px;}
+                letter-spacing: 8px;}
 
-        .titulo h4{font-size: 28px;
-            font-family: Poppins;
-            font-weight: 500;
-            line-height: 60px;
-            letter-spacing: 2px;}
+    
 
-.titulo p{    margin-top: 10%;
+.lorem p{    margin-top: 10%;
              font-size: 24px;
              padding: 4%;
             font-family: Roboto;
-            font-weight: 500;
+            font-weight: 400;
             line-height: 32px;
         max-width: 448px;
             z-index: 5000;
