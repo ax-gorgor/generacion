@@ -142,9 +142,9 @@
     }
     .kondy_4{ 
         
-        width: 100%;
+        width: 50%;
         padding: 2%;
-        margin-top: 10% ;
+        margin-top: 2% ;
         margin-bottom: 30% ;
     
     }
@@ -157,6 +157,22 @@ a{
 }
 
  .lecciones{margin-bottom: 10%;}
+
+ .leble{width: 65%;
+    height: 8%;
+    background: rgb(76, 40, 17);
+    color: rgb(217, 180, 112);
+    padding: 2%;
+    border-radius: 2%;
+ }
+
+ .leble p {font-size: 24px;
+    font-weight: 400;
+  
+    line-height: 32px;
+
+
+ }
 
 @media screen and (max-width: 565px)
   
@@ -314,6 +330,16 @@ a{
     
     }
 
+    .kondy_4{ 
+        
+        width: 90%;
+        padding: 2%;
+        margin-top: 8% ;
+        border-radius: 3%;
+       
+    
+    }
+
    .recuadros{
         
         background: rgb(188, 197, 219);
@@ -380,6 +406,24 @@ a{
 }
 
 .lecciones{margin-bottom: 10%;}
+
+.leble{width: 85%;
+    height: 5.8%;
+    background: rgb(76, 40, 17);
+    color: rgb(217, 180, 112);
+    padding: 2%;
+    border-radius: 2%;
+    margin-top: 8%;
+    padding: 5%;
+ }
+
+ .leble p {font-size: 20px;
+    font-weight: 400;
+  
+    line-height: 30px;
+
+
+ }
 
         
  }
