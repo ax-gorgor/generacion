@@ -198,9 +198,17 @@
     
        }
 
+       .logo {display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    
+       }
 
 
-.logo img{width: 100%;
+
+.logo img{width: 82%;
            margin-top: 10.5%;
            margin: 0 auto;
     

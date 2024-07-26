@@ -100,8 +100,8 @@
 
 
 
- h1{
-    font-size: 72px;
+ .logo_titulo h1{
+    font-size: 64px;
     font-family: Josefin Sans;
     font-weight: 700;
     margin-bottom: 5%;
@@ -250,6 +250,43 @@ span {
             
             
             }
+
+            
+.head{
+        
+    width: 100%;
+    height: 20%;
+    background: #ffffff;
+    position: fixed;
+    z-index: 3000;
+    align-items: start;
+    border-bottom: 1px solid #b6b6b6 ;
+  
+    }
+
+.head {display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+   }
+
+   .logo {display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+   }
+
+
+
+.logo img{width: 82%;
+       margin-top: 10.5%;
+       margin: 0 auto;
+
+        }
         
             .fixed{
                 width: 100%;
@@ -265,15 +302,9 @@ span {
             
              
             
-            .logo{
-                width: 100%;
-                  
-                }
-        
-                .logo img{width: 65%;
-                  
+            
              
-                     }
+                     
         
         
         
@@ -293,7 +324,7 @@ span {
                 flex-wrap: wrap;
                 justify-content: center;
         
-                margin-top: 36%;
+                margin-top: 46%;
                 width: 86%;}
         
         .logo_titulo1{
@@ -325,8 +356,8 @@ span {
         
         
         
-         h1{
-            font-size: 54px;
+         .logo_titulo h1{
+            font-size: 42px;
             font-family: Josefin Sans;
             font-weight: 700;
             margin-bottom: 5%;
