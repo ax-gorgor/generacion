@@ -439,6 +439,39 @@ padding: 2%;
 
         img .cocod{object-fit: cover;}
 
+        .tituloRaff{
 
+            display: block;
+        }
+        
+        .raffAutor{
+        
+            margin-top: 2%;
+            margin-left: 1%;
+            margin-bottom: 2%;
+            font-size: 14px;
+            padding: 1%;
+            line-height: 20px;
+        }
+        
+        .raffAutor p{
+            font-size: 12px;
+            
+        }
+        
+        .ohan{
+            font-size: 16px ;
+            font-weight: 500;
+        }
+        
+        .jorge{
+           
+            font-weight: 460;
+        }
+        
+        .raff img {
+            overflow: visible;
+        }
+        
     
     }
