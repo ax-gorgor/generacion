@@ -534,7 +534,14 @@ padding: 2%;
     .abrir-menu {
         color: #1c1c1c;
        
-    }
+         }
+
+
+      .bi-x{
+        font-size: 36px;
+            }
+
+
 
     .cerrar-menu {
         color: #ececec;
@@ -565,9 +572,11 @@ padding: 2%;
     .nav-list {
         flex-direction: column;
         align-items: end;
+       margin-top: 12%;
     }
 
     .nav-list li a {
+     
         color: #ecececec;
     }
         
