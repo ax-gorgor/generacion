@@ -27,8 +27,6 @@
         z-index: 3000;
         align-items: start;
       
-     
-        border-bottom: 1px solid #b6b6b6 ;
       
       
         
@@ -293,7 +291,7 @@ padding: 2%;
         position: fixed;
         z-index: 3000;
         align-items: start;
-        border-bottom: 1px solid #b6b6b6 ;
+      
       
         }
 
