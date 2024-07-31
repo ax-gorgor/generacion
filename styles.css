@@ -556,6 +556,7 @@ padding: 2%;
         background-color: rgba(0, 0, 0, 0.8);
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.8);
+        width: 100%;
     }
 
     .nav.visible {
