@@ -35,6 +35,7 @@
    }
 
 .head {display: flex;
+    
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
@@ -43,9 +44,8 @@
        }
 
 
-
-.logo img{width: 92%;
-           margin-top: 10.5%;
+.logo img{width: 82%;
+           margin-top: -3%;
     
             }
             .logo2 img{width: 90%;
@@ -63,6 +63,36 @@ a{text-decoration: none;
 
 
 img{border-radius: 1%;}
+
+.menu {position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #ececec;
+    margin-bottom: -11%;
+    width: 100%;
+    height: 5%;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(196, 195, 195);
+  
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+.abrir-menu,
+.cerrar-menu {
+    display: none;
+}
 
 .container2{ margin-top: 14%;
             }
@@ -284,6 +314,9 @@ padding: 2%;
        }
 
 
+  
+
+
 
 .logo img{width: 82%;
            margin-top: 10.5%;
@@ -474,6 +507,70 @@ padding: 2%;
         .raff img {
             overflow: visible;
         }
+/*MMMEEENNNUUU DDEE NNAAVVEEGGAACCIIOONN*/
+
+        .menu {position: fixed;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            padding: 2rem;
+            background-color: #ececec;
+            margin-bottom: -36%;
+            width: 100%;
+            height: 2%;
+            font-size: 20px;
+            border-bottom: 1px solid rgb(196, 195, 195);
+          
+        }
+
+
+        .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .abrir-menu {
+        color: #1c1c1c;
+       
+    }
+
+    .cerrar-menu {
+        color: #ececec;
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.8);
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .nav-list {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .nav-list li a {
+        color: #ecececec;
+    }
         
     
     }
