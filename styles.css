@@ -122,11 +122,11 @@ img{border-radius: 1%;}
     font-size: 22px;
     padding-bottom: 15px;
     font-weight: 300;
-    line-height: 24px;
+    line-height: 28px;
 }
 
 .flexer_1 h6{
-
+    margin-top: 2%;
     font-size: 18px;
     padding-bottom: 15px;
     font-weight: 500;
@@ -151,7 +151,7 @@ img{border-radius: 1%;}
 .block1 h2{font-size: 28px;}
 
 .block2{padding-bottom: 5px;
-            margin-top: -15%;}
+            margin-top: -0%;}
 .block2 h2{font-size: 24px;}
 
 .block1-1{padding-bottom: 60px;}
