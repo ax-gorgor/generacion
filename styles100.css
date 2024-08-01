@@ -72,7 +72,7 @@
 
 .paraj_name{margin-top: 15%;
             font-family: Arvo;
-            font-size: 72px;
+            font-size: 60px;
             padding: 20px;}
 
         
@@ -81,7 +81,7 @@
 
 .paraj_1{margin-top: 5%;
     padding: 20px;
-    width: 50%;
+    width: 35%;
 }
 
 .paraj_2{font-size: 86px;
@@ -97,8 +97,8 @@
 .paraj_3{display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 70%;
-         height: 92px;
+    width: 60%;
+         height: 82px;
         background: rgb(253, 183, 123);
         color: rgb(253, 183, 123) ;
         justify-content: center;
@@ -109,7 +109,7 @@
     border-radius: 0.5%;}
 
     h6{
-        font-size: 48px;
+        font-size: 36px;
     }
 
     
@@ -125,24 +125,30 @@
         z-index: 2000;
 }
 
+
+
+
+
 .box_paraj_1{
 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 50%;
+    width: 40%;
     font-size: 24px;
     font-weight: 300;
-    justify-content: center;
+    justify-content: left;
    align-items: center;
    line-height: 140%;
+   margin-left: 10%;
 
 }
 
 .resaltadoFecha{display: inline-block;
                 margin-right: 1%;
                 background: rgb(254, 207, 215);
-            font-weight: 400;}
+            font-weight: 400;
+            padding: 0.5%;}
 
 .paraj_17 img{
     width: 360px;
